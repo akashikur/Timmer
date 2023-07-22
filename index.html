@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- HTML Structure -->
+    <div class="container">
+      <h1>Multiple Timers App</h1>
+      <div class="timersection">
+        <span>Set Time :</span>
+        <div>
+          <input type="text" id="hours" min="0" max="12" value="00" />
+          <input type="text" id="minutes" min="0" max="59" value="00" />
+          <input type="text" id="seconds" min="0" max="59" value="00" />
+        </div>
+        <button id="start-timer-btn">Set</button>
+      </div>
+      <div class="current-timer">Current Timers</div>
+
+      <div class="active-timers-display-section" id="active-timers">
+        <!-- Active timers will be dynamically added here -->
+      </div>
+      <!-- 
+    <div class="timer-end-display-design" id="timer-end-display">
+      <p>Timer Ended!</p>
+       Additional Figma design elements can be added here -->
+      <!-- </div>  -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
